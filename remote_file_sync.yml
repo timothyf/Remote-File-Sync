@@ -1,0 +1,15 @@
+remote_host:
+  username: timothyf
+  password: 3121018
+  server: www.timothyfisher.com
+  path: /home/timothyf/typo5
+  file_perm: '0644'
+  dir_perm: 0755
+
+properties:
+  local_path: C:\projects\other\typo5
+  dirs_to_sync: ['app', 'config', 'db', 'public', 'test']
+  ignore_list: [/CVS/, /SVN/, /ext-1/, /yui/, /tinymce/]
+  
+
+
